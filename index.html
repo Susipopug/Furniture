@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3legant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,700;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./null.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="discount">
+      <div class="container discount__container">
+        <div></div>
+        <div class="discount__block">
+          <img
+            class="discount__image"
+            src="./images/ticket-percent.svg"
+            alt=""
+          />
+          <p class="discount__text">30% off storewide — Limited time!</p>
+          <a class="discount__action">Shop Now → </a>
+        </div>
+        <button class="discount__btn">
+          <span class="discount__btn-line"></span>
+          <span class="discount__btn-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__menu">
+          <div class="header__burger">
+            <button class="burger__menu-btn">
+              <span class="burger__menu-line"></span>
+              <span class="burger__menu-line"></span>
+              <span class="burger__menu-line"></span>
+            </button>
+            <h2 class="burger__menu-title">3legant.</h2>
+          </div>
+          <nav class="nav">
+            <a class="nav__item" href="#">Home</a>
+            <a class="nav__item" href="#">Shop</a>
+            <a class="nav__item" href="#">Products</a>
+            <a class="nav__item" href="#">Contact us</a>
+          </nav>
+          <div class="header__basket">
+            <a href=""><img src="./images/header_shopping_bag.svg" alt="" /></a>
+            <div class="header__basket-count">2</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <p class="hero__home">
+            <span class="hero__home-span">Home ></span> Shop
+          </p>
+          <h1 class="hero__title">Shop Page</h1>
+          <p class="hero__subtitle">
+            Let's design the place you always imagined.
+          </p>
+        </div>
+      </section>
+
+      <section class="catalog">
+        <div class="container">
+          <div class="catalog__filter">
+            <h3 class="catalog__filter__title">Filter</h3>
+            <div class="catalog__filter__content">
+              <h3 class="catalog__filter__category">categories</h3>
+              <div class="catalog__filter__scroll">
+                <div class="catalog__filter__scroll-content">
+                  <button class="catalog__filter_buttons">Button</button>
+                  <button class="catalog__filter_buttons">Button</button>
+                  <button class="catalog__filter_buttons">Button</button>
+                  <button class="catalog__filter_buttons">Button</button>
+                  <button class="catalog__filter_buttons">Button</button>
+                  <button class="catalog__filter_buttons">Button</button>
+                  <button class="catalog__filter_buttons">Button</button>
+                </div>
+              </div>
+              <h3 class="catalog__filter__category">price</h3>
+              <form class="catalog__filter__price">
+                <div class="catalog__filter__price-item">
+                  <label for="">All Price</label>
+                  <input type="checkbox" data-price="all" class="checkbox" />
+                </div>
+                <div class="catalog__filter__price-item">
+                  <label for="">$0.00 - 99.99</label>
+                  <input
+                    type="checkbox"
+                    data-min="0"
+                    data-max="99.99"
+                    class="checkbox"
+                  />
+                </div>
+                <div class="catalog__filter__price-item">
+                  <label for="">$100.00 - 199.99</label>
+                  <input
+                    type="checkbox"
+                    data-min="100"
+                    data-max="199.99"
+                    class="checkbox"
+                  />
+                </div>
+                <div class="catalog__filter__price-item">
+                  <label for="">$200.00 - 299.99</label>
+                  <input
+                    type="checkbox"
+                    data-min="200"
+                    data-max="299.99"
+                    class="checkbox"
+                  />
+                </div>
+                <div class="catalog__filter__price-item">
+                  <label for="">$300.00 - 399.99</label>
+                  <input type="checkbox" data-price="399.99" class="checkbox" />
+                </div>
+                <div class="catalog__filter__price-item">
+                  <label for="">$400.00+</label>
+                  <input
+                    type="checkbox"
+                    data-price="400.00+"
+                    class="checkbox"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="catalog__goods">
+            <div class="catalog__goods_head">
+              <div class="catalog__goods_head-top">
+                <h3 class="catalog__goods_title">Living Room</h3>
+                <select name="options" id="options">
+                  <option value="1">Get started</option>
+                </select>
+              </div>
+              <div class="catalog__goods_buttons">
+                <button class="catalog__button catalog__first-button">
+                  <img
+                    src="./images/catalog_goods_heading_firstbutton.svg"
+                    alt=""
+                  />
+                </button>
+                <button class="catalog__button catalog__second-button">
+                  <img
+                    src="./images/catalog_goods_heading_secondbutton.svg"
+                    alt=""
+                  />
+                </button>
+                <button class="catalog__button">
+                  <img
+                    src="./images/catalog_goods_heading_thirdbutton.svg"
+                    alt=""
+                  />
+                </button>
+                <button class="catalog__button">
+                  <img
+                    src="./images/catalog_goods_heading_fourthbutton.svg"
+                    alt=""
+                  />
+                </button>
+              </div>
+            </div>
+
+            <ul class="catalog__goods_list"></ul>
+            <div class="catalog__goods_Button">
+              <button class="catalog__goods_showButton catalog__show-more">Show more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo">
+        <div class="container">
+          <h2 class="promo__heading">Join Our Newsletter</h2>
+          <p class="promo__text">
+            Sign up for deals, new products and promotions
+          </p>
+          <div class="promo__form">
+            <!-- <label
+              for="email"
+              class="promo__form_label"
+              id="promo__form_label"
+            ></label> -->
+            <input
+              type="email"
+              name=""
+              id="promo__form_input"
+              class="promo__form_input"
+              placeholder="Email address"
+            />
+            <button class="promo__form_button">Signup</button>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__content_slogan">
+              <h3>3legant.</h3>
+              <img
+                class="footer__rectangle"
+                src="./images/footer_rectangle.svg"
+                alt=""
+              />
+              <p>Gift & Decoration Store</p>
+            </div>
+            <nav class="footer__nav">
+              <a class="footer__nav_item" href="#">Home</a>
+              <a class="footer__nav_item" href="#">Shop</a>
+              <a class="footer__nav_item" href="">Product</a>
+              <a class="footer__nav_item" href="#">Blog</a>
+              <a class="footer__nav_item" href="#">Contact Us</a>
+            </nav>
+          </div>
+          <div class="footer__bottom">
+            <p class="footer__bottom_copyright_year">
+              Copyright © 2023 3legant. All rights reserved
+            </p>
+            <div class="footer__bottom_copyright">
+              <p class="footer__bottom_copyright_policy">Privacy Policy</p>
+              <p class="footer__bottom_copyright_terms">Terms of Use</p>
+            </div>
+
+            <div class="footer__bottom_socials">
+              <img
+                class="footer__bottom_socialsInst"
+                src="./images/social_icon_inst.svg"
+                alt=""
+              />
+              <img
+                class="footer__bottom_socialsFb"
+                src="./images/social_icon_fb.svg"
+                alt=""
+              />
+              <img
+                class="footer__bottom_socialsYt"
+                src="./images/social_icon_yt.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script type="module" src="../js/main.js"></script>
+  </body>
+</html>
