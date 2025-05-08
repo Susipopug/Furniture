@@ -1,0 +1,21 @@
+<svg width="46.000000" height="40.000000" viewBox="0 0 46 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip21_2374">
+			<rect id="fluent:grid-24-filled" rx="0.000000" width="23.000000" height="23.000000" transform="translate(11.500000 9.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip31_2973">
+			<rect id="Elements/Toolbar Selector Buttons" rx="0.000000" width="45.000000" height="39.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Elements/Toolbar Selector Buttons" rx="0.000000" width="45.000000" height="39.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip31_2973)">
+		<rect id="fluent:grid-24-filled" rx="0.000000" width="23.000000" height="23.000000" transform="translate(11.500000 9.000000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip21_2374)">
+			<path id="Vector" d="M19.75 21.5C20.34 21.5 20.91 21.73 21.34 22.15C21.76 22.58 22 23.15 22 23.75L22 27.25C22 27.84 21.76 28.41 21.34 28.84C20.91 29.26 20.34 29.5 19.75 29.5L16.25 29.5C15.65 29.5 15.08 29.26 14.65 28.84C14.23 28.41 14 27.84 14 27.25L14 23.75C14 23.15 14.23 22.58 14.65 22.15C15.08 21.73 15.65 21.5 16.25 21.5L19.75 21.5ZM29.75 21.5C30.34 21.5 30.91 21.73 31.34 22.15C31.76 22.58 32 23.15 32 23.75L32 27.25C32 27.84 31.76 28.41 31.34 28.84C30.91 29.26 30.34 29.5 29.75 29.5L26.25 29.5C25.65 29.5 25.08 29.26 24.65 28.84C24.23 28.41 24 27.84 24 27.25L24 23.75C24 23.15 24.23 22.58 24.65 22.15C25.08 21.73 25.65 21.5 26.25 21.5L29.75 21.5ZM19.75 11.5C20.34 11.5 20.91 11.73 21.34 12.15C21.76 12.58 22 13.15 22 13.75L22 17.25C22 17.84 21.76 18.41 21.34 18.84C20.91 19.26 20.34 19.5 19.75 19.5L16.25 19.5C15.65 19.5 15.08 19.26 14.65 18.84C14.23 18.41 14 17.84 14 17.25L14 13.75C14 13.15 14.23 12.58 14.65 12.15C15.08 11.73 15.65 11.5 16.25 11.5L19.75 11.5ZM29.75 11.5C30.34 11.5 30.91 11.73 31.34 12.15C31.76 12.58 32 13.15 32 13.75L32 17.25C32 17.84 31.76 18.41 31.34 18.84C30.91 19.26 30.34 19.5 29.75 19.5L26.25 19.5C25.65 19.5 25.08 19.26 24.65 18.84C24.23 18.41 24 17.84 24 17.25L24 13.75C24 13.15 24.23 12.58 24.65 12.15C25.08 11.73 25.65 11.5 26.25 11.5L29.75 11.5Z" fill="#6C7275" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+	<rect id="Elements/Toolbar Selector Buttons" rx="0.000000" width="45.000000" height="39.000000" transform="translate(0.500000 0.500000)" stroke="#E8ECEF" stroke-opacity="1.000000" stroke-width="1.000000"/>
+</svg>
