@@ -1,6 +1,6 @@
 export const catalogData = [
   {
-    img: "../images/catalog-images/catalog_image1.jpeg",
+    img: "images/catalog-images/catalog_image1.jpeg",
     rating: "★★★★★",
     title: "Loveseat Sofa",
     price: 199.0,
